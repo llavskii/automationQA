@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>automationQA</groupId>
+    <artifactId>otusAutomationQA</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    <modules>
+        <module>1_seleniumHowTo</module>
+        <module>2_annotations_implicit_wait_etc</module>
+        <module>3_page_object_pattern</module>
+        <module>4_another_page_object</module>
+        <module>6_cucumber_BDD_SeleniumGrid_Allure</module>
+        <module>7_Serenity_framework_Cucumber</module>
+        <module>8_Selenide_framework</module>
+        <module>9_JDI_framework</module>
+        <module>14_Data_provider_XSS</module>
+        <module>15_Rest_assured</module>
+    </modules>
+
+
+</project>

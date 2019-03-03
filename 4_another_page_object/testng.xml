@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite Chrome and Edge" parallel="tests" thread-count="3">
+
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="headlessOption" value="off"/>
+        <classes>
+            <class name="tests.TestRunning"/>
+        </classes>
+    </test>
+
+    <!--Запуск теста в Headless режиме-->
+    <!--<test name="ChromeTestHeadless">-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="headlessOption" value="on"/>-->
+        <!--<classes>-->
+            <!--<class name="tests.TestRunning"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="EdgeTest">-->
+        <!--<parameter name="browser" value="Edge"/>-->
+        <!--<parameter name="headlessOption" value="off"/>-->
+        <!--<classes>-->
+            <!--<class name="tests.TestRunning"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+</suite>
